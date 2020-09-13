@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh_lai_ngan_hang</title>
+</head>
+<body>
+<script>
+    let n = parseFloat(prompt("so tien ban dau la:"));
+    let k = parseFloat(prompt("so thang cho vay la:"));
+    let x = parseFloat(prompt("phan tram lai xuat hang thang la:"));
+
+    for(let i = 1;i <= k;i++){
+        n += n*x/100;
+    }
+    document.write("neu ban ko tra tien lai hang thang so tien ma ban no ngan hang sau "+k+" thang la: "+n+" vndong");
+</script>
+</body>
+</html>

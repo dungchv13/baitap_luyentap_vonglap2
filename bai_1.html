@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai1</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt("nhap so luong so fibonacci ma ban muon in"));
+    let f1 = 1,f2 = 1,fn;
+    document.write("f1= "+f1+"<br>");
+    document.write("f2= "+f2+"<br>");
+
+    for (let i = 3;i <= n;i++){
+        fn = f2 + f1;
+        document.write("f"+i+"= "+fn+"<br>");
+        f1 = f2;
+        f2 = fn;
+    }
+</script>
+</body>
+</html>
